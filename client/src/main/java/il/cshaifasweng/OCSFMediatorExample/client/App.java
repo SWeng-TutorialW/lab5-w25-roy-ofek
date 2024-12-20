@@ -37,7 +37,7 @@ public class App extends Application {
         secondaryController.setApp(this);
 
         // open on screen
-        scene = new Scene(secondaryRoot, 200, 200);
+        scene = new Scene(secondaryRoot, 300, 300);
         stage.setScene(scene);
         secondaryController.setStage(primaryStage);
         stage.show();
